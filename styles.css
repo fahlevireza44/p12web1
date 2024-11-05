@@ -1,0 +1,124 @@
+/* Reset and global styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+/* Header styling */
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: #005073;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border: 5px solid #00a1e4;
+}
+
+.profile-info h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+/* Layout styling */
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column,
+.right-column {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 1%;
+}
+
+h2 {
+    color: #00a1e4;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #00a1e4;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+
+/* Table styling */
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+}
+
+table td {
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+
+/* List styling */
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #005073;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #00a1e4;
+}
+
+
+/* Footer styling */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, red, blue, yellow);
+    width: 80%;
+    margin: 0 auto;
+}
